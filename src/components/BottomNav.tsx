@@ -1,4 +1,4 @@
-import { Map, User, Users, FileText } from 'lucide-react';
+import { Map, User, Users, FileText, Image as ImageIcon } from 'lucide-react';
 import { Dispatch, SetStateAction } from 'react';
 
 type BottomNavProps = {
@@ -11,7 +11,8 @@ export default function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
     { id: 1, label: '세계관', icon: Map },
     { id: 2, label: '주연', icon: User },
     { id: 3, label: '조연', icon: Users },
-    { id: 4, label: '테스트 로그', icon: FileText },
+    { id: 4, label: '수록 이미지', icon: ImageIcon },
+    { id: 5, label: '테스트 로그', icon: FileText },
   ];
 
   return (

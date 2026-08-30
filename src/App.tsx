@@ -9,6 +9,7 @@ import BottomNav from './components/BottomNav';
 import Worldview from './pages/Worldview';
 import MainCharacter from './pages/MainCharacter';
 import SupportingCharacter from './pages/SupportingCharacter';
+import IncludedImages from './pages/IncludedImages';
 import TestLogs from './pages/TestLogs';
 
 export default function App() {
@@ -21,7 +22,8 @@ export default function App() {
           {activeTab === 1 && <Worldview key="worldview" />}
           {activeTab === 2 && <MainCharacter key="main-character" />}
           {activeTab === 3 && <SupportingCharacter key="supporting-character" />}
-          {activeTab === 4 && <TestLogs key="test-logs" />}
+          {activeTab === 4 && <IncludedImages key="included-images" />}
+          {activeTab === 5 && <TestLogs key="test-logs" />}
         </AnimatePresence>
       </main>
       
