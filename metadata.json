@@ -1,0 +1,6 @@
+{
+  "name": "위례 듀플렉스 하우스 RP",
+  "description": "현대 일상물 역할극 소개 페이지",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
