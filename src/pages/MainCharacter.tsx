@@ -9,8 +9,8 @@ export default function MainCharacter() {
       className="max-w-3xl mx-auto px-5 pt-8 pb-32 space-y-8"
     >
       <header className="mb-8 text-center">
-        <h1 className="text-3xl font-bold tracking-tight text-slate-800 mb-2">주연</h1>
-        <p className="text-sm text-slate-500 font-medium tracking-wide">연오</p>
+        <h1 className="text-3xl font-bold tracking-tight text-slate-800 mb-2">서연오</h1>
+        <p className="text-sm text-slate-500 font-medium tracking-wide">주연 캐릭터</p>
       </header>
 
       {/* 🖼️ 연오 프로필 사진 */}
